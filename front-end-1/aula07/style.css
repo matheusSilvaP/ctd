@@ -1,0 +1,52 @@
+/* h1 {
+
+    color: blue;
+
+} */
+
+/* .titulo-principal {
+
+    color: rgb(146, 72, 19);
+    font-size: 20px;
+
+} */
+
+/* #titulo {
+
+    color: rgb(255, 13, 235);
+    font-size: 50px;
+
+} */
+
+body, footer h2 {
+    background-color: #565676;
+}
+
+header h1 {
+    color: #AEADF0;
+    font-size: 30px;
+}
+
+.job-title{
+    background-color: #C38D94;
+    color: #D8DCFF;
+    font-size: 18px;
+}
+
+main{
+    font-size: 15px;
+}
+
+#high{
+    color: #817ff1;
+    font-size: 20px
+}
+
+footer h2{
+    font-size: 20px;
+}
+
+footer ul{
+    color: #f0fff0;
+    background-color: #1f1718;
+}
