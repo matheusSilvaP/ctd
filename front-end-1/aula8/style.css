@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.media-picture {
+    height: 500px;
+    background-image: url('https://images.hdqwalls.com/download/genshin-impact-4k-5c-1366x768.jpg');
+    background-size: cover;
+    background-position: top;
+
+}
+
+.review-score {    
+    padding: 12px;
+    background-color: #b91c1c;
+}
+
+h2 {
+    color: #14addc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: #6e2222;
+}
