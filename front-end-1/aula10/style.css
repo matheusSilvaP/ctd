@@ -1,0 +1,14 @@
+.banner {
+
+    background-image: url('https://wallpaperboat.com/wp-content/uploads/2019/10/banner-2048x1152-02.jpg');
+    width: 640px;
+    height: 360px;
+    color: #ffffff;
+
+    box-sizing: border-box;
+    border: 10px solid #d31a1a;
+    border-radius: 8px;
+    text-align: center;
+
+    padding-top: 80px;
+}
