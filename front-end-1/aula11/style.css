@@ -1,0 +1,76 @@
+* {
+
+    margin: 0;
+    border: 0;
+
+}
+
+body {
+    
+    height: 2000px;
+
+}
+
+.box {
+
+    width: 200px;
+    height: 200px;
+    background-color: black;
+
+}
+
+p {
+
+    text-align: center;
+    
+}
+
+.box-first {
+
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    position: relative;
+    top: calc(50% - 150px /2); 
+    left: calc(50% - 150px /2);       
+    
+}
+
+.box2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.box-second {
+
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    top: calc(50% - 150px /2); 
+    left: calc(50% - 150px /2);       
+
+
+    
+}
+
+.box3 {
+    position: fixed;
+    bottom: 0;
+    left: calc(50% - 200px /2);       
+
+}
+
+.box-third {
+
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: relative;
+    top: calc(50% - 150px /2); 
+    left: calc(50% - 150px /2);       
+    
+}
+
+
