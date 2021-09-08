@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap'); 
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap');
+/* font-family: 'IBM Plex Sans Arabic', sans-serif; */
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    
+    height: 2000px;
+    background: url(https://img4.goodfon.com/wallpaper/nbig/d/36/derevo-coffee-kofe.jpg) no-repeat fixed;
+    background-size: 100%;
+
+}
+
+header {
+
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;   
+    z-index: 50; 
+
+}
+
+header img {
+
+    position: fixed;
+    left: 5px;
+    height: 30px;
+    margin: 10px;
+
+}
+
+.linksHeader {
+
+    position: relative;
+    top: 5px;
+    text-align: center;    
+
+}
+
+.linksHeader a {
+
+    margin: 0 10px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+
+}
+
+
+.whatsApp img{
+
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    height: 10%;
+
+}
+
+/* jogar um z-index 50 (pra ele passar por cima)
+    text-decoration none (tirar o sublinhado do link)
+
+    usar um margin 0 20px (pra espaçar os elemntos0
+
+
+
+
+    postion stick
+
+    .main-menu img {
+        vai estilizar as img dentro do main menu
+
+
+*/
+
+
+/* .box {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.first-box {
+
+    background-color: #0000ff;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+
+}
+
+
+.second-box {
+
+    background-color: brown;
+    position: absolute;
+    z-index: 3;
+
+} */
