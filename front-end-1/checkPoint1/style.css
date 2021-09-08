@@ -13,8 +13,8 @@ body {
 
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ef/Santo_Andr%C3%A9_SP.jpg');
     background-size: 100%;
-    background-repeat: no-repeat;
     color: #ffffff;    
+    height: 1500px;
 
 }
 
@@ -27,7 +27,7 @@ header {
 
 }
 
-main {
+main, .curiosidades {
 
     margin: 20px;
     padding: 10px;
@@ -36,5 +36,24 @@ main {
     font-size: 120%;
     background-color: #3a3a3a;
 
+}
+
+
+iframe {
+
+    margin: 20px;
+}
+
+.youtube-icon{
+
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 5;   
+
+}
+
+.instagram-icon{
+
+    size: 10px;
 
 }
