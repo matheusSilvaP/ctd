@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <main>
+        <form action="">
+
+            <div class="title">
+                <h1>Formulário de cadastro</h2>
+            </div>
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <div class="nome">
+                    <label for="nome" >Nome</label>                    
+                    <input type="text" name="nome" id="nome" placeholder="Insira seu nome">
+                </div>
+                <div class="sobrenome">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+                <div class="email">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="birthDate">
+                    <label for="birthDate">Date de Nascimento</label>
+                    <input type="date" name="birthDate" id="birthDate">
+                </div>
+                <div>
+                    <label for="password">Senha</label>
+                    <input type="password" required name="password" id="password">
+                </div>
+                <div>
+                    <input type="radio" name="tipoPessoa" id="pj">
+                    <label for="pj">Pessoa Juridica</label>
+                    <input type="radio" name="tipoPessoa" id="pf">
+                    <label for="pf">Pessoa Fisica</label>                    
+                </div>
+
+                <div>
+                    <input type="checkbox">
+                    <label for="">Pessoa Juridica?</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Localização</legend>
+
+                <div>
+                    <label for="city">Cidade</label>
+                    <select name="city" id="city">
+                        <option value="">Selecione uma opção</option>
+                        <optgroup label="Sudeste">
+                            <option value="1">São Paulo</option>
+                            <option value="2">São Roque</option>
+                            <option value="3">São José dos Campos</option>
+                            <option value="4">Santo André</option>
+                            <option value="5">São Bernardo do Campo</option>
+                            <option value="6">São Caetano</option>
+                        </optgroup>
+                        <optgroup label="Nordeste">
+                            <option value="7">Salvador</option>
+                            <option value="8">Maceió</option>
+                        </optgroup>
+                        
+                    </select>
+                </div>
+            </fieldset>
+
+            <div class="container button">                
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar formulário</button>
+            </div>
+        </form> 
+        </section>
+       
+    </main>
+    
+    
+</body>
+</html>
