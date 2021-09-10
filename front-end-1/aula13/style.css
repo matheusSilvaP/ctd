@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap'); 
 /* font-family: 'Roboto', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+/* font-family: 'Original Surfer', cursive; */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,19 +15,52 @@
 
 body {
     display: grid;
-    min-height: 100vh;
+    min-height: 1000px;
+    background-image: url("https://viagensimperdiveis.com/wp-content/uploads/2019/07/IMG_8158-2-1024x768.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
+
+header {
+
+    position: fixed;
+    top: 0;
+    background-color: #601f27;
+    width: 100%;
+    height: 60px;
+    z-index: 500;
+}
+
+header img {
+    
+    position: fixed;
+    left: 7.5px;
+    height: 45px;
+    margin-top: 7.5px
+
+}
+
+header h1 {
+
+    font-family: 'Original Surfer', cursive;
+    margin-top: 7.5px;
+    text-align: center;
+    color: #DCCB85;
+    height: 1px;
 
 }
 
 main {
-    padding: 50px 50px;
-    background-color: var(--secondaryColor);
+
+    margin: 10px;
+    position: relative;
+    top: 60px;
 
 }
 
-main .title h1 {
-    font-size: 36px;
-    margin-bottom: 15px;
+.title {
+
+    color: white;
 }
 
