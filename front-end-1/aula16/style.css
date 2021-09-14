@@ -1,0 +1,65 @@
+header h1::first-letter {
+
+    font-size: 60px;
+
+}
+
+
+p:hover {
+
+    background-color: red;
+
+}
+
+.inputs-teste {
+
+    margin: 5px;
+
+}
+
+.inputs-teste input:enabled {
+
+    background-color: green;
+
+}
+
+.inputs-teste input:disabled {
+
+    background-color: red;
+
+}
+
+.input-focus {
+
+    margin: 5px;
+    
+
+}
+
+.input-focus input:focus {
+
+    background-color: black;
+    color: pink;
+
+}
+
+.lista {
+    
+    margin: 20px;    
+    width: 55%;
+    padding: 10px;
+    background-color: gray;
+
+}
+
+.lista ul li:nth-child(4n) {
+
+    color: red;
+
+}
+
+.teste input:checked {
+
+    transform: scale(2)
+
+} 
