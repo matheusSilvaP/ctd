@@ -1,0 +1,52 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer'
+    
+
+}
+
+
+body header {
+
+    background-color: #0000ff;
+    grid-area: header;
+
+}
+
+
+
+body aside {
+
+    background-color: #a52a2a;
+    grid-area: aside;
+    height: 500px;
+
+}
+
+body main {
+
+    background-color: #dc14b1;
+    grid-area: main;
+
+}
+
+
+body footer {
+
+    background-color: #00ffff;
+    grid-area: footer;
+
+}
